@@ -21,9 +21,9 @@ body:
     attributes:
       label: I tried to reproduce the issue when...
       options:
-        - label: uBlock Origin with default lists / uBlock Origin met standaard filterlijsten
+        - label: AdGuard with default lists / AdGuard met standaard filterlijsten
           required: true
-        - label: uBlock Origin is the only extension / uBlock Origin is de enige extensie
+        - label: AdGuard is the only extension / AdGuard is de enige extensie
           required: true
 
   - type: input
