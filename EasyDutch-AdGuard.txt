@@ -5,7 +5,7 @@
 !
 ! Alleen voor advertenties of anti-adblock op Nederlandstalige sites!
 ! Rapporteer gevonden advertenties of fouten hier:
-! https://github.com/EasyDutch-uBO/EasyDutch-AdGuardissues
+! https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/issues
 ! mailto: easydutch.adblock@gmail.com
 !
 !#include EasyDutch/Block_General.txt
