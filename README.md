@@ -1,11 +1,11 @@
 [EasyDutch-AdGuard](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard):
-[![Commit rate](https://img.shields.io/github/commit-activity/m/EasyDutch-uBO/EasyDutch-AdGuard?label=Commits&color=succes)](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/commits/)
+[![Commit rate](https://img.shields.io/github/commit-activity/y/EasyDutch-uBO/EasyDutch-AdGuard?label=Commits&color=succes)](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/commits/)
 [![Last commit](https://img.shields.io/github/last-commit/EasyDutch-uBO/EasyDutch-AdGuard?label=Last%20commit&color=informational)](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/commits/main)
 [![Issues](https://img.shields.io/github/issues/EasyDutch-uBO/EasyDutch-AdGuard?label=Issues&color=red)](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/issues)
 [![Issues](https://img.shields.io/github/issues-closed/EasyDutch-uBO/EasyDutch-AdGuard?color=green&label=Issues)](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/issues?q=is%3Aissue+is%3Aclosed)
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=lightgrey)](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/blob/main/LICENSE) <br>
 (( [EasyList Dutch](https://github.com/easylist/easylistdutch/):
-[![Commit rate](https://img.shields.io/github/commit-activity/m/easylist/easylistdutch?label=Commits&color=succes&style=plastic)](https://github.com/easylist/easylistdutch/commits/)
+[![Commit rate](https://img.shields.io/github/commit-activity/y/easylist/easylistdutch?label=Commits&color=succes&style=plastic)](https://github.com/easylist/easylistdutch/commits/)
 [![Last commit](https://img.shields.io/github/last-commit/easylist/easylistdutch?label=Last%20commit&color=informational&style=plastic)](https://github.com/easylist/easylistdutch/commits/master)
 [![Issues](https://img.shields.io/github/issues/easylist/easylistdutch?label=Issues&color=red&style=plastic)](https://github.com/easylist/easylistdutch/issues)
 [![Issues](https://img.shields.io/github/issues-closed/easylist/easylistdutch?color=green&label=Issues&style=plastic)](https://github.com/easylist/easylistdutch/issues?q=is%3Aissue+is%3Aclosed) ))
