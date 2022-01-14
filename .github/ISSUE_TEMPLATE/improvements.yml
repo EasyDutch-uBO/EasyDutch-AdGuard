@@ -1,5 +1,5 @@
 name: Improvements
-description: Improvements or additions to documentation. You can also propose it in [Discussions](https://github.com/EasyDutch-uBO/EasyDutch/discussions/categories/ideas) 
+description: Improvements or additions to documentation. You can also propose it in [Discussions](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/discussions/categories/ideas) 
 labels: documentation
 body:
   - type: checkboxes
@@ -7,7 +7,7 @@ body:
       label: Prerequisites / Vereisten
       description: To rule out invalid issues, confirm and check each one of the checkboxes.
       options:
-        - label: I performed a [cursory search of the issue tracker](https://github.com/BPower0036/AdBlockFilters/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
+        - label: I performed a [cursory search of the issue tracker](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
           required: true
     
   - type: textarea
