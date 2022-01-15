@@ -6,7 +6,7 @@
 - [ ] This is a **Dutch** website / Het is een **Nederlandse** website
 - [ ] I performed a [cursory search of the issue tracker](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/issues) to avoid opening a duplicate issue / Geen **duplicaten**!!
 - [ ] Only ads or anti-adblock / Alleen advertenties of anti-adblock
-- [ ] Filters were [updated](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists#purge-all-caches) before reproducing an issue / Filterlijsten zijn [geüpdated](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists#update-now) voordat dit probleem werd gereproduceerd
+- [ ] Filters were updated before reproducing an issue / Filterlijsten zijn geüpdated voordat dit probleem werd gereproduceerd
 - [ ] I have updated my browser to the most recent version / Ik heb mijn browser geüpdated naar de meest recente verie
 - [ ] I tried to reproduce the issue when...
     - [ ] uBlock Origin with default lists / uBlock Origin met standaard filterlijsten
