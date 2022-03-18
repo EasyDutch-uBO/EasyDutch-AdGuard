@@ -1,3 +1,94 @@
+! 2022-03-17
+binnenlandsbestuur.nl##aside div[class="c-teaser"]:not(:has(a[href*="binnenlandsbestuur.nl"]))
+duurzaamnieuws.nl##[class^="av_textblock"]:has-text(/advert/i)
+duurzaamnieuws.nl##aside section[class$="widget_text"]:has-text(wordt mede mogelijk gemaakt door)
+duurzaamnieuws.nl##section[class^="avia_codeblock"]:has-text(wordt mede mogelijk gemaakt door)
+marktplaats.nl##.right-banner-root-container
+podcastluisteren.nl##.bnr
+spreekbuis.nl##.widget_media_image:not(:has(img[src*="vierkant-spreekbuis"]))
+spreekbuis.nl##.widget_spreekbuis_partners
+vi.nl##.betting-provider-row
+vi.nl##li[class*="highlights"]:has(div[class*="articles-list"][class*="item--highlight"]:has(span[class]:has-text(/advert/i)))
+! 2022-03-12
+sexpret.com,zinineensexdate.com##.nomobile:has(img[src^="/images/"])
+! 2022-03-11
+maarkelsnieuws.nl##.banner-widget
+maarkelsnieuws.nl##.banner-secondary-sidebar:not(:has(img[src*="weerbanner"]))
+maarkelsnieuws.nl##.banners-weekad
+maarkelsnieuws.nl##.in-slider-ad
+wegdamnieuws.nl##.ads
+nieuwsuitdelden.nl##.gesponsord_blokje
+! 2022-03-09
+gezondheidsnet.nl##.banner
+lonelyplanet.nl##div[id*="adf-billboard"]
+! 2022-03-08
+ninefornews.nl##.mag-box:has([src*="adskeeper.com"])
+ninefornews.nl##.mag-box:has(img[width="728"][height="90"])
+ninefornews.nl##.gofollow
+ninefornews.nl##article > div.entry-content > .mag-box-container:has(h3)
+ninefornews.nl##div[class^="mag-box"] + #adskeeper
+! 2022-03-04
+nu.nl##.block-wrapper:has-text(adverteerders)
+nu.nl##.articlelist.block:has-text(Folder \(Adverteerders\)) .list
+nu.nl##.temptation__aside
+! 2022-03-02
+funda.nl##.home-billboard
+jaap.nl##div[id^="property_ad_"]
+tvgids.nl##.square-item:has( > .banner)
+! 2022-02-25
+racesport.nl##.hthb-notification
+racesport.nl##.rs_sponsorbanners_widget:upward(1)
+! 2022-02-15
+cryptobenelux.com##.elementor-element iframe[data-ezsrc*="Bitcoin_Kopen"]
+! 2022-02-14
+studylibnl.com##.above-content
+studylibnl.com##.below-content
+studylibnl.com##.sidebar-top-content
+! 2022-02-08
+startlinken.nl##td[class]:has(a[href*="robohost.nl/clients/aff.php"]):upward(2)
+spidersolitairespelen.nl##.spel_b1
+spidersolitairespelen.nl##.spel_b2
+telegraaf.nl##.withBanners + .ComponentRotation
+! 2022-02-03
+minecrafttoplist.nl##.fancy-wrap
+! 2022-02-02
+wildfm.nl##[class*="avia-image-container"]:has(a[href])
+wildfm.nl##[id*="after_section"] > .container:has([class*="av-content"])
+! 2022-01-31
+autoweek.nl##.advertisement
+! 2022-01-26
+nu.nl##[class="zone clearfix"][data-zone$="bottom"]:has([id^="ad"])
+nu.nl##aside#h1
+tpo.nl##[id$="top-ad"]
+tpo.nl##[id$="halfpage"]
+tpo.nl##div.ads-contain
+! 2022-01-21
+hartvannederland.nl,shownieuws.nl,vivandaag.nl##[data-testid^="banner"]
+hartvannederland.nl,shownieuws.nl,vivandaag.nl##div[class*="-bannerWrapper-"]
+helpmij.nl##[id^="navbar_notice"]:has(.adsbygoogle)
+! 2022-01-19
+1001erotiekverhalen.nl##[href^="https://t.adating.link/"]:upward(2)
+kinkymedia.nl##.carousel-frame:has([id*="adguru_slider"])
+klapjes.nl##a[href*="/adverteren"]:upward(2)
+klapjes.nl##div[class*="Sidebar"] > [class]:has-text(webcamsex)
+klapjes.nl##div[class*="Sidebar"] img[src*="/hoomezaz"][src*=".gif"]:upward(3)
+wettelijke-feestdagen.nl##.advertentieBanner
+wettelijke-feestdagen.nl###reclame
+kalender-365.nl###dish-top-desktop
+feestdagen-nederland.nl###ad-top-desktop
+! 2022-01-18
+cip.nl##.d-none.d-md-block:has([class*="anativead"][href*="/ad/"])
+feestdagen-be.be,feestdagen-nl.nl##aside:has(.adsbygoogle)
+feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
+! 2022-01-17
+dagelijksekost.een.be##.dish-sponsors
+cip.nl##a[href*="/ad/"]:upward(1):not(.podcast-inline):not(.nav)
+cip.nl##.vacation-big-widget
+wereldklokken.nl##.adsbygoogle:style(visibility: collapse !important;)
+wereldklokken.nl##.klokken:style(transform: translateX(-180px ) !important;)
+! https://github.com/EasyDutch-uBO/EasyDutch/pull/7
+nieuwsonline.nu##.widget-title:has-text(/Advert|AD/):upward(1)
+nieuwsonline.nu##.split-images-news-section:has(.section-title:has-text(Advert))
 ! 2022-01-14
 biernet.nl###BJA2
 biernet.nl###BJA3
@@ -9,6 +100,9 @@ forum.spaarinformatie.nl##table:has-text(/advert/i)
 handbalstartpunt.nl##aside > div[class]:has(> .adsbygoogle)
 handbalstartpunt.nl##p:has(img[src*="Logo"])
 kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
+kinkymedia.nl##aside > div[id^="media_image"]:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
+mygaydate.nl##.rand:has([href^="https://www.shemalecontactnederland.nl/"])
+netonline.be##.tekstboldwit td:has-text(/advert/i)
 ! 2022-01-13
 morningstar.*###ad_top_page
 asex.nl###adblk1
@@ -314,7 +408,6 @@ sexafspraakonline.nl##.d-lg-block.d-none > .card:has-text(Advert)
 dating-zoeken.nl,hete-sexcontacten.nl,milf-overzicht.nl,sexdating-afspraak.nl,sexdating-gids.be,sexdatinggids.be,vrouwensexdate.nl##.d-lg-block.d-none:has-text(Advert):not(:has(.jcarousel-skin-tango))
 geile-sexcontacten.be##.d-lg-block:has-text(Advert)
 autobahn.eu##.d-none.mb-3:has(a[target="_blank"][rel="noopener"])
-tpo.nl##.dusWhite.mainContent
 duurzaamnieuws.nl##.duurz-content:has([data-advadstrackid])
 turksemedia.nl##.easingslider
 decibel.nl##.edgtf-carousel-holder
@@ -365,7 +458,6 @@ eredivisie.nl##.header__top__partners
 arenalokaal.nl,sexverhalen.com##.header_banner
 koopplein.nl,televizier.nl,tvblik.nl##.header-banner
 autoline-nl.be,autoline.nl##.header-bn-wrapper
-ninefornews.nl##.header-content > :has(.gofollow)
 eromarkt.nl##.headerlinks:has(iframe[src="linkframe.php"])
 wos.nl##.header-right
 vivocyclo.com##.herald-sticky > [id^="media_image-"]
@@ -400,7 +492,6 @@ startlijstjes.nl##.item:has([class^="item_special"]:has-text(tradetracker.net))
 reformatorischeomroep.nl##.item-banner
 almere-nieuws.nl##.jeg_container > .jeg_container:has(.jeg_ad)
 guldencourant.nl##.jeg_midbar:has([class^="ads-wrapper"])
-cryptobenelux.com##.jet-parallax-section.elementor-section:has(img[src*="banner"])
 iex.nl##.js-banner
 eurocampings.nl##.js-mock-banner
 waldnet.nl##.kolom_haad > div[style="height: 300px;"]
@@ -453,7 +544,6 @@ ninefornews.nl##.nfn-target[data-advadsredirect]
 nieuws.nl##.nieuws-banner
 showbizzsite.be##.nieuws-detail-page-bottom-part > :has(.konvento)
 kidsweek.nl##.node-advertorial
-zinineensexdate.com##.nomobile.boxleft:has(img[src^="/images/"])
 30plussexdate.nl,ikwilneuken.be,ikwilneuken.net,meidenzoekensex.nl,sexcontactadressen.nl##.nomobile.boxlinks:has(.homebanner)
 dekattensite.nl##.nxs-default-p > p:has-text(advert)
 inmemoriam.be##.o-news__add
@@ -637,7 +727,6 @@ pikanterooieoortjes.nl##.widget_custom_html:has([src^="//aweproto.com/"])
 mannenstyle.nl##.widget_execphp
 riskcompliance.nl##.widget_itarget_banners
 ajaxreport.nl,feyenoordreport.nl,livestreamvandaag.be,onlinekraslotenrss.nl,onlinepokerrss.nl,psvreport.nl,sportweddenrss.nl,voetbalsnafu.nl##.widget_links
-spreekbuis.nl##.widget_media_image
 ero-meiden.nl,geilverlangen.nl##.widget_media_image > a[href]:has(.size-full.attachment-full)
 sexmeid.nl##.widget_media_image:has(img[src*="sexmeid.nl/wp-content/uploads/"][src$=".gif"])
 tankpro.nl##.widget_nlpartners
@@ -648,7 +737,6 @@ culturescope.nl##.widget_sp_image:has([onclick^="javascript:window.open("] > img
 123geldzaken.nl##.widget_sponsor
 radioreflex.be##.widget_sponsors_widget
 spelersvrouw.nl##.widget_text.gridlove-box
-ninefornews.nl##.widget_text.widget:has(img[width="300"][height="600"])
 wielerflits.be,wielerflits.nl##.widget_text:has([class^="wielerflits_ros_bravo"])
 radionl.fm##.widget_text:has(a[href] > img[src])
 emerce.nl##.widget_text:has(img[src*="/hosted-by-true-"])
@@ -660,7 +748,6 @@ onderwijsland.com##.widgetbar > div.row > :has-text(Advert)
 voetbal4u.be##.widget-container:has([id^="text-"]:has(script[src*="/ad"]))
 voetbal4u.com##.widget-container:has([id^="text-"]> h4)
 indebuurt.nl##.widget-tabs--partner
-ninefornews.nl##.widget-top:has-text(/sponsor/i) 
 telegraaf.nl##.withBanners
 eindtijdklok.org##.wpa
 dagelijksestandaard.nl##.wpb_content_element.vc_separator:nth-of-type(4)
@@ -706,8 +793,6 @@ negerinnensexdating.eu##[class="rand nomobile"]:has(a[href*="net69.nl/genre"])
 kinkysexcontactonline.nl,negerinnensexdating.eu,neukplaza.nl,privesexgids.nl,sexdatingholland.com,stellensexdating.nl,studentesexcontact.nl,tienersexpret.nl,zinomteneuken.nl##[class="rand nomobile"]:has(img[src^="/images/"])
 androidplanet.nl,iphoned.nl##[data-name="dynamic-content"][data-nosnippet]
 hardware.info##[data-testid^="banner"]
-hartvannederland.nl##[data-testid^="homepageAfter"]
-hartvannederland.nl##[data-testid="topBanner"] > [class]
 pornokartel.nl##[href*="pornokartel.nl/adverteren"]
 sexfun.nl##[href^="https://ads.v1d305.com/redirect/"]
 seksmet.nl##[href^="https://dt51.net/"]
@@ -797,7 +882,6 @@ deoudrotterdammer.nl##[width="300"][height="600"]
 be.hardware.info##^script:has-text(Inject=!)
 be.hardware.info##+js(nostif, .call(null), 10)
 geenstijl.nl##a[data-ga-event^="link-tip"]
-cip.nl##a[href*="/ad/click/"]:not(.podcast-inline a[href*="/ad/click/"])
 nu.nl##a[href*="/advertorial-"]
 geilverlangen.nl##a[href] > img.size-full.aligncenter
 gaynews.nl##a[href^="/_global/_cp.php?"]
@@ -852,9 +936,7 @@ omroepbrabant.nl##div[class^="ad-"]
 omroepbrabant.nl,reclamefolder.nl##div[class^="ad_"]
 rtvdrenthe.nl##div[class^="col"]:has([class*="adcontainer"])
 assercourant.nl,emmercourant.nl##div[class^="col-sm-"]:has(.ad-item)
-veronicainside.nl##div[class^="Component-bannerTopWrapper"]
 zoom.nl##div[class^="display-ad_container"]
-veronicainside.nl##div[class^="k-bannerWrapper"]
 hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:has(.adsbygoogle):not([id])
 weeronline.nl##div[class^="styled__AdWrapper-"]
 weeronline.nl##div[class^="styled__FooterAdWrapper-"]
@@ -906,7 +988,6 @@ gva.be##main > div > .grid:has-text(Auto's in de kijker)
 leerzaam.com##p:has(.adsbygoogle)
 creditexpo.nl##p:has(a[href]:has(img[src*="creditexpo.nl/wp-content/uploads/"][width="300"]))
 radio182.nl##section.elementor-element:has(h3:has-text(MOGELIJK GEMAAKT DOOR))
-tpo.nl##section:has(.daisyconWidget)
 iex.nl##section:has-text(advertentie)
 nporadio1.nl##section[class]:has-text(advert):has([id^="adid"]):has(script[src*="/adcdn."])
 oops.nl##table[cellspacing="30"]
