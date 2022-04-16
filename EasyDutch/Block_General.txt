@@ -1,3 +1,7 @@
+! Title: Block General
+! Description: Filters to block general URLs on Dutch websites
+! Last updated: Fri, 15 Apr 2022 09:06:42 +0000
+!
 ! https://github.com/easylist/easylistdutch/commit/95d1b75372ec4f93b15cc420717bac47dfc87486
 /tekst_advertentie_
 ! 2021-06-29
@@ -39,6 +43,6 @@
 /scripts/edoris/shared/*$object
 /small_reclames/*
 /topadvertentie.
-://promotie.$third-party
+://promotie.$3p
 _advertentie300x250_
 _advertentieleaderboardhome.

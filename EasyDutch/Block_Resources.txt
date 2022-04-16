@@ -1,3 +1,33 @@
+! Title: Block Resources
+! Description: Filters to block specific URLs on Dutch websites
+! Last updated: Fri, 15 Apr 2022 17:39:09 +0000
+!
+! 2022-04-15
+||cdn.topescort.com/static/bn/$image,domain=sexguide.nl
+! 2022-04-14
+||camjam.nl/customs/*/assets/images/*.gif$image
+||camjam.nl/customs/*/assets/images/flirtmee.jpg$image
+||advocatie.nl/content/uploads/*Rectangle-Advocatie
+||advocatie.nl/content/uploads/*whitepaper_336x280
+||fonkmagazine.nl/adds/
+! 2022-04-12
+||farmaline.be/assets/banners/
+! 2022-04-02
+||binnenvaartkrant.nl/wp-content/uploads/*/BVK.jpg$image
+||binnenvaartkrant.nl/wp-content/uploads/*/viking_river_cruises_728x90px.jpg$image
+||binnenvaartkrant.nl/wp-content/uploads/*/*_lb_abato_*.jpg$image
+||tools-affil2.com/rtb/index.php$domain=1001erotiekverhalen.nl
+||vlootschouw.nl/wp-content/uploads/*/bottom-banner*
+! 2022-03-31
+||schuttevaer.nl/partnersites/
+||static.promedia.nl/logos/$image,domain=automobielmanagement.nl|carwashpro.nl|infrasite.nl|ovpro.nl|rijschoolpro.nl|spoorpro.nl|tankpro.nl|taxipro.nl|verkeersnet.nl
+! 2022-03-26
+||images.headliner.nl/img/campaigns$image
+! 2022-03-23
+||alphens.nl/resize/upload/*/*banner
+! 2022-03-22
+||pen.nl/wp-content/uploads/*/banner*$image
+||pen.nl/wp-content/uploads/*/*adv$image
 ! 2022-03-17 crimesite.nl
 ||strafrechtadvocaten.nl/media/banner/$3p
 ! 2022-03-12
@@ -56,7 +86,7 @@
 /voicebericht/assets/images/verdien-geld-met-anoniem-thuiswerk.$image,domain=1on1.nl|beeldbellen.xxx|erowerk.nl|geilegids.nl|privecam.nl|privesexlijn.nl|sexcamsites.nl|telefoonsex.xxx|tienersex.nl|videochat.nl
 /voicebericht/assets/images/videochat277x$image,domain=beeldbellen.xxx|erowerk.nl|geilegids.nl|privecam.nl|privesexlijn.nl|sexcamsites.nl|telefoonsex.xxx|tienersex.nl|videochat.nl
 /wp-content/uploads/*.gif$image,domain=2sexcontact.nl|alblasserdamsnieuws.nl|bekijkporno.nl|ciaotutti.nl|coc.nl|dorpsklanken.online|edelmetaal-info.nl|ero-meiden.nl|geilverlangen.nl|hete-foto.nl|kechtube.com|lekkerewebcams.nl|motokicx.com|nieuws.xxx|noordkopcentraal.nl|onschuldigemeiden.nl|pornokartel.nl|regionoordkop.nl|rtvpapendrecht.nl|rtvlansingerland.nl|seksmet.nl|sexmeid.nl|shespot.nl|sleutelstad.nl|sproeiendekutjes.nl|thekinkyweb.nl|tiener-sexverhalen.nl|tube.nederlandseporno.nl|tubelight.nl|unitednews.sr|wraaksex.nl
-/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|baarsclassicrock.nl|bol-an.nl|cryptobenelux.com|curacao.nu|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|katholiek.nl|loemedia.nl|luister.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|oogtv.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|simone.nl|sleutelstad.nl|spreekbuis.nl|streamwijzer.be|tradeidee.nl|unitednews.sr
+/wp-content/uploads/*/*banner$image,domain=alblasserdamsnieuws.nl|baanwacht.nl|baarsclassicrock.nl|biflatie.nl|bol-an.nl|cryptobenelux.com|curacao.nu|decibel.nl|dekrantvantynaarlo.nl|deoudrotterdammer.nl|destreekkrant.nu|dekrantnieuws.nl|dordtcentraal.nl|genemuidenactueel.nl|goedkoopstekeukensduitsland.nl|hoekschnieuws.nl|katholiek.nl|loemedia.nl|luister.nl|maaslandradio.nl|mannennieuws.nl|omroepalmere.nl|oogtv.nl|radiocontinu.nl|railhobby.nl|regionoordkop.nl|simone.nl|sleutelstad.nl|spreekbuis.nl|streamwijzer.be|tradeidee.nl|unitednews.sr
 /wp-content/uploads/*/*-outline-canvas-*.$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 /wp-content/uploads/*/Mijn-Zaak$image,domain=dekrantvantynaarlo.nl|destreekkrant.nu|dekrantnieuws.nl
 /wp-content/uploads/*/Neuk-test$image,domain=gratispornofilm.nl|outdoor-sex.nl|pornokartel.nl|teen-sex.nl
