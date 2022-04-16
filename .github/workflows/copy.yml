@@ -23,6 +23,6 @@ jobs:
             git config user.name "BPower0036"
             git config user.email "<>"
             git add -u EasyDutch/
-            git commit -m "Updated from @EasyDutch-uBO"
+            git commit -m "Updated from @EasyDutch-uBO/EasyDutch"
             git push origin main
           fi
