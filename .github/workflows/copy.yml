@@ -16,7 +16,7 @@ jobs:
         run: chmod +x ./.github/update-filters.sh
       - name: Fetch EasyDutch
         run: |
-          ./.github/update-back-up.sh
+          ./.github/update-filters.sh
       - name: Commit changes, if any
         run: |
           if [[ -n $(git diff) ]]; then
