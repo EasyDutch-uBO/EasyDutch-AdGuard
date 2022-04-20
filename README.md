@@ -12,7 +12,7 @@
 
 ***
 # EasyDutch
-Adblock filters for Dutch websites made for [uBlock Origin](https://github.com/uBlockOrigin/uAssets)
+Adblock filters for Dutch websites made for [AdGuard](https://adguard.com/en/adguard-browser-extension/overview.html)
 
 | Contents |
 | --- |
@@ -28,6 +28,9 @@ This filterlist has been made as nice supplement to [EasyDutch](https://github.c
 If you see ads on dutch websites please [report](https://github.com/EasyDutch-uBO/EasyDutch/issues/new/choose) it to me or sent me an email to easydutch.adblock@gmail.com <br>
 
 ## [Contributing](https://github.com/EasyDutch-uBO/EasyDutch-AdGuard/blob/main/CONTRIBUTING.md)
+<details>
+<summary>Contributing</summary>
+
 > ##### Ordering of filters
 > 
 > New filters must be added on the top of each list.
@@ -71,6 +74,8 @@ If you see ads on dutch websites please [report](https://github.com/EasyDutch-uB
 > The rest you may change.
 > 
 > Breaching this rule will result in a warning and if not listening, being banned as contributor!
+
+</details>
 
 ***
 ## View and Subscribe to EasyDutch
