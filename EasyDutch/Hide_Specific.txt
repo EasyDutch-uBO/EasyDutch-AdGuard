@@ -1,7 +1,18 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Fri, 15 Apr 2022 17:38:30 +0000
+! Last updated: Fri, 22 Apr 2022 04:18:58 +0000
 !
+! 2022-04-22
+anoniem-surfen.nl##.footer-widget-1
+anoniem-surfen.nl##.header-widget-region
+! 2022-04-21
+dagelijksestandaard.nl###TOP_ARTICLE
+dagelijksestandaard.nl##nav + div[style^="height:52px"]
+netxxx.nl##hr:nth-of-type(1)
+! 2022-04-20
+ninefornews.nl##.mag-box:has(.gofollow)
+! 2022-04-19
+skoften.net##.promoted-entry-in-content
 ! 2022-04-15
 sexguide.nl##.topBanners
 sexguide.nl##.blogBanners
@@ -800,7 +811,6 @@ voetbal4u.com##.widget-container:has([id^="text-"]> h4)
 indebuurt.nl##.widget-tabs--partner
 telegraaf.nl##.withBanners
 eindtijdklok.org##.wpa
-dagelijksestandaard.nl##.wpb_content_element.vc_separator:nth-of-type(4)
 voetbalrotterdam.nl##.wpb_content_element:has(.wpb_wrapper [class^="lshowcase-"])
 voetbalrotterdam.nl##.wpb_content_element:has(.wpb_wrapper [style^="max-width:"][style*="100%; height:"])
 nieuwsfiets.nu##.wpb_raw_html[class*="us_custom_"]:has(.wpb_wrapper)
@@ -814,7 +824,6 @@ camping-frankrijk.nl##[class$="container"]:has([id*="HyperLinkBanner"])
 onlinecasinorss.nl,onlinekraslotenrss.nl,voetbalsnafu.nl,voetbalweddenrss.nl##[class$="sidebar-widget"]:has(p > a[href*="casino"]):not(:has(div[class="widget-title"]))
 kekmama.nl##[class*="cts-advertorial"]
 domstadradio.nl##[class*="elementor-element-"]:has-text(/onze sponsors/i)
-meerdangewenst.nl##[class*="footer-section"]:has(.sponsoren)
 hardnieuws.nl##[class*="mb-"]:has([id$="ros-970x250"])
 telefoonboek.nl##[class*="organic-"]:has-text(Advertentie)
 infonu.nl##[class^="a"][id^="a"]:has(.adsbygoogle)
@@ -968,7 +977,6 @@ mariogames.be##div.gameinfo:has-text(/sponsored links/i)
 watchfaces.be##div.google
 loemedia.nl##div.ppb_header.withsmallpadding.one:has(:has-text(/Advertentie|Banner/))
 knhs.nl##div.row:has(:scope > section > .cycler:has(img[src*="banner"]))
-dagelijksestandaard.nl##div.wpb_raw_code > .wpb_wrapper:has(div[style="padding:20px;"])
 oisterwijknieuws.nl##div[align="center"] a[target="_blank"]
 voetbalsnafu.nl##div[class$="sidebar-widget"] > .textwidget:has(p > a[href*="eredivisiewedden.nl"][target="_blank"])
 ajaxreport.nl,feyenoordreport.nl,psvreport.nl,voetbalsnafu.nl##div[class$="sidebar-widget"] > .textwidget:has(p > a[href*="voetbalwedden.net"][target="_blank"])
@@ -1015,8 +1023,6 @@ gids.tv##h2:has-text(Advert)
 gids.tv##h2:has-text(Advert) + .advertisement + a[href]
 tube.nederlandseporno.nl##h3:has-text(/Sexdating|Webcamsex/)
 androidplanet.nl,iphoned.nl##header[data-name="featured-header"]
-dagelijksestandaard.nl,netxxx.nl##hr:nth-of-type(1)
-dagelijksestandaard.nl##hr:nth-of-type(3)
 oisterwijknieuws.nl##img[alt="banner"]
 rotterdambasketbal.nl##img[title^="roba_sponosor_"]
 prewarcar.nl##img[width="160"][height="92"]
