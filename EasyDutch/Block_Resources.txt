@@ -1,8 +1,21 @@
 ! Title: Block Resources
 ! Description: Filters to block specific URLs on Dutch websites
-! Last updated: Sat, 02 Jul 2022 09:30:28 +0000
+! Last updated: Wed, 06 Jul 2022 15:04:33 +0000
 !
+! 2022-07-06
+||widgets.skyscanner.net^$domain=puuropreis.nl
+||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
+||index4sex.com/global/asset/image/partner$image,domain=omejoop.be
+*$3p,image,domain=kinkymedia.nl
+||privesexgids.nl/images/eroshop.jpg
+||date-sex.nl/banner$domain=privesexgids.nl
+! 2022-07-05
+||itnijs.frl/wp-content/uploads/*/adfertinsje
+||mr-online.nl/wp-content/uploads/*/*.gif
+||onderdanigeman.nl/wp-content/uploads/*.gif
+||tippelpagina.nl/wp-content/uploads/*/*.gif
 ! 2022-07-01
+||handbalstartpunt.nl/*/banner$image
 ||racingnews365.nl/images/logos/odds/unibet/
 ||pen.nl/wp-content/uploads/*/fitcity360x96.png
 ||beveiligingnieuws.nl/banners/$image
@@ -279,7 +292,6 @@
 ||despirituelewereld.be/wp-content/uploads/*/hook-bottom-info-coronavirus*$image
 ||dewereldmorgen.be/wp-content/banners/$image
 ||digitalaudience.io/bakery/pix/$image,3p
-||disqus.com/recommendations/$subdocument,domain=webmastersunited.com
 ||ditjesendatjes.nl/app/uploads/*/*-footer-DenD.png$image
 ||dorpsklanken.online/wp-content/uploads/*/Knap-IT_Paterswolde.png$image
 ||dorpsklanken.online/wp-content/uploads/*/polling_basis.jpg$image
@@ -323,8 +335,6 @@
 ||gratis.nl/wp-content/uploads/*/*-gratis.png$image
 ||greenkeeper.nl/upload/banners/
 ||greenkeeper.nl/upload/relaties/
-||handbalstartpunt.nl/content/schoonkapje$image,1p
-||handbalstartpunt.nl/images/banner_$image,1p
 ||hetnieuwsvandaag.be/media/cache/rectangle_image/media/image/*.$image
 !||hotdatingvlaanderen.be/banner$image
 ||hotradiohits.nl/image/picture/*_banner.
@@ -402,12 +412,10 @@
 ||oisterwijknieuws.nl/wp-content/uploads/*/parelexpres.jpg$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/Paul-Kuijpers-*.$image
 ||oisterwijknieuws.nl/wp-content/uploads/*/savona-wasstraat-*.jpg$image
-||omejoop.be/pop.js
 ||omroeprsh.nl/wp-content/uploads/*/*RSH-300x*.gif$image
 ||onderwijsland.com/files/partners/
 ||oneworld.nl/app/uploads/*/*-Banner$image
 ||ontdek-amerika.nl/marketing/bartsbanner.gif
-||oogtv.nl/wp-content/banners/
 ||oops.nl/banner/$subdocument
 ||openingsurengids.be/includes/js/checkblockv2.js
 ||openingsurengids.be/template/images/publi/
@@ -499,7 +507,6 @@
 ||storage.googleapis.com/stateless-www-nuus-be/*/*.gif$image,domain=nuus.be
 ||storage.googleapis.com/stateless-www-nuus-be/*/*-banner-*$image,domain=nuus.be
 ||swpportal.com/upload/squarebanners/
-||t.whalehunter.cash/tiny/*$image,domain=kinkymedia.nl
 ||teen-sex.nl/wp-content/uploads/*/900x250$image
 ||teen-sex.nl/wp-content/uploads/*/SP1600x150.jpg$image
 ||te-les-koop.nl/images/B_
