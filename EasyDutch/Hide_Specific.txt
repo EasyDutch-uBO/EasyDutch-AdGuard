@@ -1,7 +1,21 @@
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Thu, 07 Jul 2022 14:53:06 +0000
+! Last updated: Sat, 16 Jul 2022 09:08:50 +0000
 !
+! 2022-07-15
+lekkercryptisch.nl##.c-sponsoredBy
+lekkercryptisch.nl##.p-footer__randomPartner
+iex.nl##.strossle-widget
+iex.nl##.publisher-sh-spot
+iex.nl##.rectanglemid
+iexprofs.nl##.banner__side
+iexprofs.nl##.banner__wrap
+iexprofs.nl##.tagwrapper:upward(.row__item)
+! 2022-07-13
+uw-folder.nl##.banner
+webcam-binnenvaart.nl##.d-md-block.d-none:has-text(Met dank aan)
+! 2022-07-12
+appletips.nl###aanbblok
 ! 2022-07-06
 scattube.be,tubeclips.nl###buttonUnderVideoLink
 puuropreis.nl##.banneritem:not(:has([href^="/component/banners/click"]))
