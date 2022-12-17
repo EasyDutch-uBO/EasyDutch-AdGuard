@@ -1,9 +1,20 @@
 [uBlock Origin]
 ! Title: Hide Specific
 ! Description: Filters for hiding elements on specific Dutch websites
-! Last updated: Sat, 10 Dec 2022 10:03:51 +0000
+! Last updated: Thu, 15 Dec 2022 15:32:06 +0000
 !
+! 2022-12-15
+kinkymedia.nl##aside > .widget:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
+! 2022-12-13
+soccernews.nl##.ad-container
+soccernews.nl##.bcb-atts:upward(1)
+soccernews.nl##.bcb-sport-block-data
+npo3fm.nl,nporadio4.nl##ul > li:has(script[src*="ster"]):has-text(/advert/i)
+! 2022-12-12
+cvandaag.nl##[class*="anativead"][href*="/ad/"]:upward(1)
+cvandaag.nl##.vacation-big-widget
 ! 2022-12-10
+voetbalprimeur.nl##[href^="https://ads.jacks.nl/redirect.aspx"]
 vi.nl##.c-tag:has-text(/advert/i):upward(.c-articles-list__link)
 ! 2022-12-10 https://github.com/uBlockOrigin/uAssets/issues/15963
 tweakers.net##.headline:has([title^=".Adv"])
@@ -64,8 +75,6 @@ vtm.be##div.pui__seekbar__cuepoints
 moviemeter.nl##.latestnewsbx:has-text(Advert)
 ! 2022-10-07 https://github.com/AdguardTeam/AdguardFilters/issues/131530
 hardware.info##div[class^="bnr-"]
-! 2022-10-05
-agf.nl,bpnieuws.nl,groentennieuws.nl##.banner
 ! 2022-10-04
 encyclo.nl##.right[style]
 encyclo.nl,mijnwoordenboek.nl,woorden.org##[id$="-336x280"]
@@ -106,7 +115,6 @@ radio0511.com##.leftColumn.cell > div:has(.sponsorImg)
 qmusic.nl##.inline-partners
 puurnaturisme.nl##aside div:has(.bannergroup_noborder)
 kinkymedia.nl##.footer-widget-container .widget:has(img)
-kinkymedia.nl##.widget:has(a[href*="ad"][href*="bnmngr"])
 tubeseks.be##.site-footer
 hollywoodhuizen.nl##.a-widget
 hollywoodhuizen.nl##div[class^="post-content description"] > div[class]:not(.sharedaddy):not(:has(img))
@@ -569,7 +577,6 @@ hartvannederland.nl,shownieuws.nl,vivandaag.nl##[data-testid^="banner"]
 hartvannederland.nl,shownieuws.nl,vivandaag.nl##div[class*="-bannerWrapper-"]
 helpmij.nl##[id^="navbar_notice"]:has(.adsbygoogle)
 ! 2022-01-19
-kinkymedia.nl##.carousel-frame:has([id*="adguru_slider"])
 klapjes.nl##a[href*="/adverteren"]:upward(2)
 klapjes.nl##div[class*="Sidebar"] > [class]:has-text(webcamsex)
 klapjes.nl##div[class*="Sidebar"] img[src*="/hoomezaz"][src*=".gif"]:upward(3)
@@ -578,13 +585,10 @@ wettelijke-feestdagen.nl###reclame
 kalender-365.nl###dish-top-desktop
 feestdagen-nederland.nl###ad-top-desktop
 ! 2022-01-18
-cip.nl##.d-none.d-md-block:has([class*="anativead"][href*="/ad/"])
 feestdagen-be.be,feestdagen-nl.nl##aside:has(.adsbygoogle)
 feestdagen-be.be,feestdagen-nl.nl##div[class]:has(>.adsbygoogle):upward(1)
 ! 2022-01-17
 dagelijksekost.een.be##.dish-sponsors
-cip.nl##a[href*="/ad/"]:upward(1):not(.podcast-inline):not(.nav)
-cip.nl##.vacation-big-widget
 wereldklokken.nl##.adsbygoogle:style(visibility: collapse !important;)
 wereldklokken.nl##.klokken:style(transform: translateX(-180px ) !important;)
 ! 2022-01-14
@@ -596,7 +600,6 @@ duurzaam-actueel.nl##header + section:has([class*="logo-showcase-slider"])
 forum.spaarinformatie.nl##table:has-text(/advert/i)
 handbalstartpunt.nl##aside > div[class]:has(> .adsbygoogle)
 kilroynews.net##table:has(a[href="http://www.waffen-jansen.de"])
-kinkymedia.nl##aside > div[id^="media_image"]:has(a[href]):not(:has(a[href*="kinkymedia.nl"]))
 netonline.be##.tekstboldwit td:has-text(/advert/i)
 ! 2022-01-13
 morningstar.*###ad_top_page
@@ -765,7 +768,7 @@ zeelandnet.nl##.as__bottom-banner
 nailtalk.nl##.ashe-widget
 klimaatinfo.nl##.aside__add
 salvora.nl##.avia-content-slider1
-afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,executive-people.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,retaildetail.be,retaildetail.nl,sexfotodating.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl,uiennieuws.nl,unity.nu,waldnet.nl##.banner
+afkortingen.nu,allradio.nl,elkspel.nl,erotracks.nl,executive-people.nl,filmladder.nl,klasse.be,nieuweoogst.nl,nieuws.nl,nrc.nl,retaildetail.be,retaildetail.nl,sexfotodating.nl,startbewijs.nl,startkabel.nl,startpagina.nl,televizier.nl,telezien.nl,totaaltv.nl,truck1.be,truck1-nl.be,truck1.nl,tvgemist.be,tvgids.nl,unity.nu,waldnet.nl##.banner
 dutchitchannel.nl##.banner:has([href*="/bannerclick.html&banner"])
 vlietnieuws.nl##.banner_wrapper
 402online.com##.bannerblock
