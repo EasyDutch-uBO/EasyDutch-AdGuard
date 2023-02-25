@@ -1,11 +1,8 @@
 [uBlock Origin]
 ! Title: Block Third-Party Server
 ! Description: Filters for blocking only general third-party servers on Dutch websites
-! Last updated: Sat, 18 Feb 2023 07:35:46 +0000
+! Last updated: Sun, 19 Feb 2023 19:55:13 +0000
 !
-! 2023-02-18
-! hdtienersexfilms.nl, rapesextube.be, rapetube.eu
-||srv69.eu^$domain=hdtienersexfilms.nl|rapesextube.be|rapetube.eu
 ! 2022-10-25
 ! https://nos.nl/teletekst
 ||adcdn.ster.nl^$3p
@@ -46,9 +43,6 @@
 ! 2021-10-23
 ! nos.nl (https://nos.nl/op3/video/2399828-wie-bepaalt-welke-emoji-s-jij-kunt-gebruiken)
 ||dntblckmpls.nl^$3p
-! 2021-10-16
-! backofficebureau.nl
-!||adcalls.nl^$3p
 ! 2021-09-18
 ! dagelijksestandaard.nl
 ||viadata.store^$3p
